@@ -33,6 +33,9 @@ gem 'autoprefixer-rails'
 # devise 
 gem 'devise', '~> 3.4.1'
 
+# paperclip 
+gem 'paperclip', '~> 4.2'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
