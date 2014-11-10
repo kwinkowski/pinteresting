@@ -40,6 +40,10 @@ gem 'paperclip', '~> 4.2'
 gem 'masonry-rails'
 gem 'jquery-turbolinks'
 
+# will paginate 
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
