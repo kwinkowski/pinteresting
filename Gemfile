@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
@@ -29,6 +29,9 @@ gem 'bootstrap-sass'
 
 # Gem Autoprefixer
 gem 'autoprefixer-rails'
+
+# devise 
+gem 'devise', '~> 3.4.1'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
